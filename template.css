@@ -1,0 +1,328 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+margin:0;
+padding:0;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+fieldset, img {
+border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var{
+font-style:normal;
+font-weight:normal;
+}ol,ul{
+list-style:none;
+}
+caption,th{
+text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+font-size:100%;
+font-weight:normal;
+}
+q:before,q:after{
+content:'';
+}
+abbr,acronym{
+border:0;
+}
+a{
+outline:none;
+text-decoration:none;
+}
+em{
+font-style:italic;
+}
+strong{
+font-weight:bold;
+}
+.hide{
+display:none!important;
+}
+.center{
+text-align:center;
+}
+.clear{
+clear:both;
+height:20px;
+display:block;
+margin-bottom:-20px;
+}
+html{
+background:#19191a;
+}
+body{
+font-family:verdana,sans-serif;
+font-size:12px;
+line-height:1.7em;
+background:#19191a;
+text-align:center;
+min-width:960px;
+}
+.wrap{
+width:940px;
+margin:0 auto;
+text-align:left;
+}
+#header{
+background:#fff;
+width:100%;
+min-width:960px;
+float:left;
+clear:both;
+display:inline;
+}
+#branding{
+float:left;
+}
+#branding .logo{
+float:left;
+}
+#branding .logo a{
+display:block;
+background:url(/img/template/logo_tapbots.gif);
+width:140px;
+height:80px;
+text-indent:-9000px;
+margin:20px 0;
+}
+#branding .logo a:active{
+margin:21px 0 -21px 0;
+}
+#branding .tagline{
+background:url(/img/template/tagline_tapbots.gif);
+width:220px;
+height:40px;
+margin:40px 0 40px 20px;
+text-indent:-9000px;
+float:left;
+}
+#header .nav{
+float:right;
+width:460px;
+margin:40px 0;
+}
+#header .nav li{
+float:left;display:inline;
+}
+#header .nav li a{
+display:block;
+float:left;
+height:40px;
+width:92px;
+background:url(/img/template/nav_home.png);
+text-indent:-9000px;
+opacity:.8;
+-webkit-transition:opacity .2s linear;
+}
+#header .nav li a:hover{
+opacity:1;
+}
+#header .nav li.selected a{
+opacity:1;
+}
+#header .nav li.home a{
+background-position:0 0;
+}
+#header .nav li.software a{
+background-position:-92px 0;
+}
+#header .nav li.support a{
+background-position:-184px 0;
+}
+#header .nav li.blog a{
+background-position:-276px 0;
+}
+#header .nav li.company a{
+background-position:-368px 0;
+}
+#header .nav li.home.selected a,#header .nav li.home a:active{
+background-position:0 -40px;
+}
+#header .nav li.software.selected a,#header .nav li.software a:active{
+background-position:-92px -40px;
+}
+#header .nav li.support.selected a,#header .nav li.support a:active{
+background-position:-184px -40px;
+}
+#header .nav li.blog.selected a,#header .nav li.blog a:active{
+background-position:-276px -40px;
+}
+#header .nav li.company.selected a,#header .nav li.company a:active{
+background-position:-368px -40px;
+}
+#body{
+background:#fff;
+width:100%;
+min-width:960px;
+float:left;
+clear:both;
+display:inline;
+padding-bottom:80px;border-bottom:15px solid #fff;
+}
+#footer{
+border-top:5px solid #c0c0c8;
+padding:40px 0;
+float:left;
+width:100%;
+min-width:960px;
+clear:both;
+display:inline;
+color:#565656;
+}
+#company-promos{
+float:left;
+display:block;
+margin-bottom:40px;
+}
+#company-promos li{
+background:url(/img/template/company_promo_bg.png) no-repeat 0 0;
+width:200px;
+padding:0 10px;
+float:left;
+display:inline;
+margin-left:20px;
+text-align:center;
+}
+#company-promos li:hover{
+background-position:0 -180px;
+}
+#company-promos li:first-child{
+margin-left:0;
+}
+#company-promos li a{
+font-size:11px;
+color:#777;
+display:block;
+padding-top:84px;
+height:96px;
+text-shadow:#222 0 -1px 0;
+}
+#company-promos li a:hover{
+color:#999;
+}
+#company-promos li a img{
+margin-top:-184px;
+margin-bottom:10px;
+display:block;
+}
+#company-promos li a br{
+display:none;
+}
+#company-promos li a strong{
+color:#fff;
+display:block;
+width:200px;
+height:20px;
+text-indent:-9000px;
+opacity:.7;
+-webkit-transition:opacity .2s linear;
+}
+#company-promos li a:hover strong{
+opacity:1;
+}
+#footer form{
+clear:both;
+background:url(/img/template/mailinglist_bg.gif);
+width:940px;
+height:60px;
+display:block;
+margin-bottom:20px;
+}
+#footer form legend{
+display:none;
+}
+#footer form dt{
+float:left;
+}
+#footer form dt strong{
+display:block;
+float:left;
+width:92px;
+height:85px;
+background:url(/img/template/mailinglist_icon.png);
+text-indent:-9000px;
+top:-10px;
+left:-45px;
+margin:-10px -45px -10px -45px;
+}
+#footer form dt label{
+display:block;
+width:460px;
+height:60px;
+background:url(/img/template/mailinglist_title.png);
+text-indent:-9000px;
+margin-left:80px;
+}
+#footer form dd{
+float:right;
+}
+#footer form dd input.text{
+display:block;
+border:0;
+margin:0;
+padding:20px 10px;
+background:url(/img/template/mailinglist_input.png) 0 14px;
+width:254px;
+height:20px;
+float:left;
+color:#aaa;
+}
+#footer form dd input.text:focus,#footer form dd.focus input.text{
+outline:none;
+color:#333;
+background-position:0 -46px;
+}
+#footer form dd.error input.text{
+background-position:0 -106px;
+}
+#footer form dd.error input.text:focus{
+background-position:0 -46px;
+}
+#footer form dd.success{
+background:url(/img/template/mailinglist_input.png) no-repeat 0 -166px;
+width:380px;
+height:60px;
+}
+#footer form dd.success button,#footer form dd.success input#mailing_email{
+visibility:hidden;
+}
+#footer form dd button{
+display:block;
+border:0;
+margin:0;
+padding:0;
+width:106px;
+height:60px;
+float:right;
+background:url(/img/template/mailinglist_submit.png);
+text-indent:-9000px;
+opacity:.8;
+-webkit-transition:opacity .2s linear;
+}
+#footer form dd button:hover{
+opacity:1;cursor:pointer;
+}
+#footer form dd button:active{
+background-position:0 -60px;
+-moz-outline-style:none;
+}
+#footer form dd span.send{
+display:block;
+width:106px;
+height:20px;
+float:right;
+text-align:center;
+padding:20px 0 20px 0;
+color:#666;
+text-shadow:#fff 0 1px 0;
+font-weight:bold;
+font-size:11px;
+}
+#footer 
+#copyright{
+font-size:10px;
+text-transform:uppercase;
+}

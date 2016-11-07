@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+font-size: 100%;
+
+}
+
+body {
+	color: #469238;
+	line-height: 20px;
+	color: #333333;
+	background-color: lightgray;
+	display:block;
+}
+
+#content
+{
+	width: 980px;
+	height: 100%;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	padding-top: 0;
+	display: block;
+}
+#header
+{
+	width: 980px;
+	height: 129px;
+	background-color: white;
+	position: relative;
+}
+#logo
+	{
+	background: url(../img/header.png) no-repeat;
+	width: 980px;
+	height: 129px;
+	float: left;
+	}
+
+#main
+	{
+	text-align: center;
+	width: 940px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+#hello
+	{
+	background: url(../img/hello.png) no-repeat;
+	width: 244px;
+	height: 33px;
+	margin-left: 360px;
+	margin-right: 174px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+#text
+	{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 0px 155px 0px 170px;
+	text-decoration: none;
+	color: #002d73;
+	width: 603px;
+}
+a.rollover {
+	display: block;
+	width: 260px;
+	height: 184px;
+	background-position: 0px 0px;
+}
+a.rollover:hover {
+	background-position: -260px 0px;
+}
+
+.block {
+	width: 940px;
+	background-color: #469238;
+	margin: 0px 20px 20px 0px;
+}
+.block img {
+	float: left;
+	vertical-align: top;
+	margin-right: 25px;
+}
+.block-hor {
+	width: 940px;
+	background-color: #469238;
+	margin: 0px 20px 20px 0px;
+}
+
+.block-hor img {
+	border: 0px;
+	vertical-align: top;
+}
+
+.blocktext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	color: white;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	line-height: normal;
+	text-align: left;
+
+}
+
+.blocktext img {
+	margin-right: 30px;
+}
+
+.blocktext:first-child {
+	font-size: 16px;
+}
+
+.smallblock {
+	display: block;
+	width: 300px;
+	background-color: #469238;
+	display: block;
+	float:left;
+	margin-left: 20px;
+	line-height: normal;
+	vertical-align: top;
+	position: relative;
+}
+
+.smallblock .smallblocktext {
+	width: 260px;
+	height: 305px;
+	background-color: #469238;
+	display: block;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: white;
+	line-height: normal;
+	text-align: left;
+	padding: 20px;
+	padding-top: 10px;
+	vertical-align: top;		
+}
+
+.product-blocks {
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+	margin-top: 40px;
+}
+.product-blocks .group { 
+	width:260px;
+	height:580px;
+	margin-left:20px;
+	float:left;
+	display:block;
+	text-align:center;
+	position:relative;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: normal;
+	font-size: 14px;
+	text-decoration: none;
+	color: #002d73;
+}
+#rollover {
+	width: 260px;
+	height: 184px;
+	display: block;
+	overflow: hidden;
+
+}
+rollover:hover {
+	margin-left: -184px;
+}
+
+.product-blocks .group:first-child {
+margin-left:90px;
+}
+
+.product-blocks a.product img {
+width: 260px;
+height: 184px;
+}
+.product-blocks .group p{ 
+	margin-top: 20px;
+}
+.footer {
+	background: url(../img/footer.png) no-repeat;
+	width: 980px;
+	height: 75px;
+	float: right;
+	margin-top: 20px;
+}
